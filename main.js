@@ -137,10 +137,12 @@ if (constants) {
 	}
 
 	// Render About: story image and team
-	const storyImage = document.getElementById('storyImage');
-	if (storyImage) {
-		storyImage.innerHTML = `<img src="${constants.IMAGES.story}" alt="Bakery" class="w-full h-full object-cover"/>`;
-	}
+	// const storyImage = document.getElementById('storyImage');
+	// if (storyImage) {
+	// 	storyImage.innerHTML = `<img src="${constants.IMAGES.story}" alt="Bakery" class="w-full h-full object-cover"/>`;
+	// }
+
+
 	const teamGrid = document.getElementById('teamGrid');
 	if (teamGrid && Array.isArray(constants.TEAM)) {
 		teamGrid.innerHTML = constants.TEAM.map((member) => `
