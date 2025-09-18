@@ -53,9 +53,9 @@ const SITE = {
 };
 
 const FEATURED = [
-	{ name: "Chocolate Truffle Cake", desc: "Rich, moist layers with silky ganache.", price: 650, image: IMAGES.chocolatetruffle },
-	{ name: "Freshly Baked Puffs", desc: "Flaky, buttery, and perfect snack.", price: 20, image: IMAGES.vegpuff },
-	{ name: "Butter Pista cookies", desc: "Freshly baked, golden crisp cookies with a perfect balance of crunch and sweetness.", price: 380, image: IMAGES.butterPistacookies },
+	{ name: "Chocolate Truffle Cake", desc: "Rich, moist layers with silky ganache.", price: 900, image: IMAGES.chocolatetruffle },
+	{ name: "Freshly Baked Veg Puffs", desc: "Flaky, buttery, and perfect snack.", price: 25, image: IMAGES.vegpuff },
+	{ name: "Butter Pista cookies", desc: "Freshly baked, golden crisp cookies with a perfect balance of crunch and sweetness.", price: 480, image: IMAGES.butterPistacookies },
 	{ name: "Cheesy Veg Pizza", desc: "Hand-tossed with fresh toppings.", price: 80, image: IMAGES.pizza },
 	{ name: "Paneer Kulcha", desc: "Stuffed, soft, and perfectly spiced.", price: 70, image: IMAGES.paneerKulcha },
 	{ name: "Swiss Roll", desc: "A Swiss roll is a delicious sponge cake roll filled with cream, jam, or other sweet fillings.", price: 25, image: IMAGES.swissroll }
@@ -66,38 +66,38 @@ const MENU_CATEGORIES = [
 		key: "cakes",
 		title: "Cakes",
 		items: [
-			{ name: "Chocolate Truffle", desc: "Silky ganache layered cake.", price: 700, image: IMAGES.chocolatetruffle },
-			{ name: "Black Forest Cake", desc: "Classic chocolate sponge with whipped cream and cherries.", price: 650, image: IMAGES.blackforestcake },
-			{ name: "Red Velvet", desc: "Cream cheese frosting.", price: 749, image: IMAGES.redvelvetcake },
-			{ name: "Fresh Fruit Cake", desc: "Light sponge with fruits.", price: 799, image: IMAGES.freshfruitcake },
+			{ name: "Chocolate Truffle", desc: "Silky ganache layered cake.", price: 900, image: IMAGES.chocolatetruffle },
+			{ name: "Black Forest Cake", desc: "Classic chocolate sponge with whipped cream and cherries.", price: 800, image: IMAGES.blackforestcake },
+			{ name: "Red Velvet", desc: "Cream cheese frosting.", price: 900, image: IMAGES.redvelvetcake },
+			{ name: "Fresh Fruit Cake", desc: "Light sponge with fruits.", price: 900, image: IMAGES.freshfruitcake },
 			{ name: "Butter Scotch Cake", desc: "Classic butterscotch flavor with caramel.", price: 800, image: IMAGES.butterscotchCake },
-			{ name: "Pineapple Cake", desc: "Moist vanilla sponge with pineapple pieces and cream.", price: 599, image: IMAGES.pineapplecake },
-			{ name: "Ras Malai Cake", desc: "Fusion cake with ras malai flavors and creamy frosting.", price: 700, image: IMAGES.rasMalaiCake },
-			{ name: "Strawberry Cake", desc: "Soft sponge with fresh strawberry cream.", price: 699, image: IMAGES.strawberryCake }
+			{ name: "Pineapple Cake", desc: "Moist vanilla sponge with pineapple pieces and cream.", price: 700, image: IMAGES.pineapplecake },
+			{ name: "Ras Malai Cake", desc: "Fusion cake with ras malai flavors and creamy frosting.", price: 800, image: IMAGES.rasMalaiCake },
+			{ name: "Strawberry Cake", desc: "Soft sponge with fresh strawberry cream.", price: 800, image: IMAGES.strawberryCake }
 		]
 	},
 	{
 		key: "pastries",
 		title: "Pastries",
 		items: [
-			{ name: "Black Forest Pastry", desc: "Classic chocolate and cherry layers.", price: 15, image: IMAGES.blackforestpastry },
+			{ name: "Black Forest Pastry", desc: "Classic chocolate and cherry layers.", price: 30, image: IMAGES.blackforestpastry },
 			{ name: "Black Currant Pastry", desc: "Tangy black currant cream and sponge.", price: 50, image: IMAGES.blackcurrantpastry },
-			{ name: "Pineapple Pastry", desc: "Light vanilla sponge with pineapple cream.", price: 15, image: IMAGES.pineapplepastry },
-			{ name: "Cassata Pastry", desc: "Rich, fruity, and creamy layers.", price: 25, image: IMAGES.cassatapastry },
-			{ name: "Chocolate Truffle Pastry", desc: "Decadent chocolate truffle filling.", price: 40, image: IMAGES.chocolatetrufflepastry },
-			{ name: "Butter Scotch Pastry", desc: "Butterscotch cream and caramel.", price: 40, image: IMAGES.butterscotchpastry },
-			{ name: "Strawberry Pastry", desc: "Fresh strawberry cream and sponge.", price: 40, image: IMAGES.strawberrypastry },
+			{ name: "Pineapple Pastry", desc: "Light vanilla sponge with pineapple cream.", price: 30, image: IMAGES.pineapplepastry },
+			{ name: "Cassata Pastry", desc: "Rich, fruity, and creamy layers.", price: 40, image: IMAGES.cassatapastry },
+			{ name: "Chocolate Truffle Pastry", desc: "Decadent chocolate truffle filling.", price: 55, image: IMAGES.chocolatetrufflepastry },
+			{ name: "Butter Scotch Pastry", desc: "Butterscotch cream and caramel.", price: 45, image: IMAGES.butterscotchpastry },
+			{ name: "Strawberry Pastry", desc: "Fresh strawberry cream and sponge.", price: 45, image: IMAGES.strawberrypastry },
 			{ name: "Rainbow Pastry", desc: "Colorful layers with vanilla cream.", price: 70, image: IMAGES.rainbowpastry },
-			{ name: "Red Velvet Pastry", desc: "Red velvet sponge with cream cheese.", price: 40, image: IMAGES.redvelvetpastry }
+			{ name: "Red Velvet Pastry", desc: "Red velvet sponge with cream cheese.", price: 45, image: IMAGES.redvelvetpastry }
 		]
 	},
 	{
 		key: "Hand Made Biscuits & Cookies",
 		title: "Hand Made Biscuits & Cookies",
 		items: [
-			{ name: "Butter Pista Cookies", desc: "Crusty outside, airy inside.", price: 380, image: IMAGES.butterPistacookies },
-			{ name: "Coconut Cashew Cookies", desc: "Buttery and herby.", price: 360, image: IMAGES.coconutkaju },
-			{ name: "Indian Jeera Biscuits", desc: "Healthy and hearty.", price: 260, image: IMAGES.multigrain }
+			{ name: "Butter Pista Cookies", desc: "Crusty outside, airy inside.", price: 480, image: IMAGES.butterPistacookies },
+			{ name: "Coconut Cashew Cookies", desc: "Buttery and herby.", price: 400, image: IMAGES.coconutkaju },
+			{ name: "Indian Jeera Biscuits", desc: "Healthy and hearty.", price: 320, image: IMAGES.multigrain }
 		]
 	},
 	{
@@ -106,11 +106,11 @@ const MENU_CATEGORIES = [
 		items: [
 			{ name: "Cheesy Veg Pizza", desc: "Fresh toppings, hand-tossed.", price: 80, image: IMAGES.pizza },
 			{ name: "Paneer Kulcha", desc: "Soft, stuffed, spiced.", price: 70, image: IMAGES.paneerKulcha },
-			{ name: "Veg Puff", desc: "Crispy layers, spicy filling.", price: 20, image: IMAGES.vegPuff },
-			{ name: "Brown Bread Sandwich", desc: "Wholesome brown bread with fresh veggies and chutney.", price: 30, image: IMAGES.brownBreadSandwich },
-			{ name: "Club Sandwich", desc: "Triple layered sandwich with veggies and cheese.", price: 30, image: IMAGES.clubSandwich },
-			{ name: "Grilled Sandwich", desc: "Grilled to perfection with a savory filling.", price: 40, image: IMAGES.grilledSandwich },
-			{ name: "Cheese Puff", desc: "Flaky pastry filled with cheesy goodness.", price: 40, image: IMAGES.cheesePuff }
+			{ name: "Veg Puff", desc: "Crispy layers, spicy filling.", price: 30, image: IMAGES.vegPuff },
+			{ name: "Brown Bread Sandwich", desc: "Wholesome brown bread with fresh veggies and chutney.", price: 45, image: IMAGES.brownBreadSandwich },
+			{ name: "Club Sandwich", desc: "Triple layered sandwich with veggies and cheese.", price: 35, image: IMAGES.clubSandwich },
+			{ name: "Grilled Sandwich", desc: "Grilled to perfection with a savory filling.", price: 55, image: IMAGES.grilledSandwich },
+			{ name: "Cheese Puff", desc: "Flaky pastry filled with cheesy goodness.", price: 45, image: IMAGES.cheesePuff }
 		]
 	}
 ];
