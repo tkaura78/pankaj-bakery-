@@ -70,11 +70,16 @@
           </div>
       
           <!-- Background Image with Text -->
-          <div id="storyImage" 
-               class="relative overflow-hidden rounded-3xl border border-neutral-200 shadow-sm min-h-[320px] flex items-center justify-center text-center text-white p-6"
-               style="background-image: url('https://res.cloudinary.com/dlgads1kq/image/upload/v1758176203/Gemini_Generated_Image_k04m2xk04m2xk04m_aj5atj.png'); background-size: cover; background-position: center;">
-            
-            <!-- Optional dark overlay for better text readability -->
+          <div id="storyVideo" 
+               class="relative overflow-hidden rounded-3xl border border-neutral-200 shadow-sm min-h-[320px] flex items-center justify-center text-center text-white p-6 bg-black">
+            <video 
+              class="absolute inset-0 w-full h-full object-cover"
+              src="https://res.cloudinary.com/dlgads1kq/video/upload/v1762845318/grok-video-6c81c1db-c026-4a1b-9b93-15993f4fe2b0_rlfbtf.mp4" 
+              autoplay 
+              loop 
+              muted 
+              playsinline
+            ></video>
             <div class="absolute inset-0 bg-black/40"></div>
       
             <!-- Text on top of image -->
