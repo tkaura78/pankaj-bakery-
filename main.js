@@ -84,13 +84,23 @@ if (constants) {
 		heroBg.style.backgroundImage = `url('${constants.IMAGES.hero}')`;
 	}
 
+	// Helper function to check if URL is a video
+	const isVideo = (url) => {
+		return url && (url.includes('/video/') || url.endsWith('.mp4') || url.endsWith('.webm') || url.endsWith('.mov'));
+	};
+
 	// Render Featured on Home
 	const featuredGrid = document.getElementById('featuredGrid');
 	if (featuredGrid && Array.isArray(constants.FEATURED)) {
-		featuredGrid.innerHTML = constants.FEATURED.map((item) => `
+		featuredGrid.innerHTML = constants.FEATURED.map((item) => {
+			const isVideoUrl = isVideo(item.image);
+			const mediaElement = isVideoUrl 
+				? `<video src="${item.image}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" autoplay muted loop playsinline preload="auto"></video>`
+				: `<img src="${item.image}" alt="${item.name}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />`;
+			return `
 			<article class="group bg-white rounded-2xl overflow-hidden border border-neutral-200 shadow-sm hover:shadow-md transition" data-animate>
 				<div class="aspect-[4/3] bg-neutral-100 overflow-hidden">
-					<img src="${item.image}" alt="${item.name}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+					${mediaElement}
 				</div>
 				<div class="p-5">
 					<h3 class="font-bold text-lg">${item.name}</h3>
@@ -98,7 +108,8 @@ if (constants) {
 					<div class="mt-3 font-semibold text-brand-700">₹${item.price}</div>
 				</div>
 			</article>
-		`).join('');
+		`;
+		}).join('');
 	}
 
 	// Render Menu categories
@@ -108,10 +119,15 @@ if (constants) {
 			<div>
 				<h2 class="text-2xl font-bold">${cat.title}</h2>
 				<div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-					${cat.items.map((item) => `
+					${cat.items.map((item) => {
+						const isVideoUrl = isVideo(item.image);
+						const mediaElement = isVideoUrl 
+							? `<video src="${item.image}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" autoplay muted loop playsinline preload="auto"></video>`
+							: `<img src="${item.image}" alt="${item.name}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500"/>`;
+						return `
 						<article class="group bg-white rounded-2xl overflow-hidden border border-neutral-200 shadow-sm hover:shadow-md transition" data-animate>
 							<div class="aspect-[4/3] overflow-hidden bg-neutral-100">
-								<img src="${item.image}" alt="${item.name}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500"/>
+								${mediaElement}
 							</div>
 							<div class="p-5">
 								<h3 class="font-semibold">${item.name}</h3>
@@ -119,7 +135,8 @@ if (constants) {
 								<div class="mt-2 font-semibold text-brand-700">₹${item.price}</div>
 							</div>
 						</article>
-					`).join('')}
+					`;
+					}).join('')}
 				</div>
 			</div>
 		`).join('');
