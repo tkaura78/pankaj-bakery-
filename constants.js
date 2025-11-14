@@ -15,12 +15,12 @@ const IMAGES = {
 	strawberryCake: "https://res.cloudinary.com/dlgads1kq/video/upload/v1762928269/grok-video-53dda53c-5f1d-46de-8fa8-23e8da379581_ni1ymk.mp4",
 	rasMalaiCake: "https://res.cloudinary.com/dlgads1kq/video/upload/v1762932895/grok-video-dd7d1e73-1575-40dd-9a6d-19a16de77841_1_ol6vfy.mp4",
 	butterscotchCake: "https://res.cloudinary.com/dlgads1kq/video/upload/v1762930080/grok-video-573d9475-8981-4edd-823f-5268765e3bb8_aajuzk.mp4",
-	butterPistacookies: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758011232/butterpista_qcxa7a.jpg",
+	butterPistacookies: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763097120/grok-video-9bb6689f-39e8-40da-99f1-d293641d66ae_1_ccysil.mp4",
 	pizza: "https://res.cloudinary.com/dlgads1kq/video/upload/v1762929483/grok-video-eb16c10c-0e13-4a09-82a9-d0a9e8eed842_zdwakv.mp4",
 	paneerKulcha: "https://res.cloudinary.com/dlgads1kq/video/upload/v1762929065/grok-video-3efc7955-320b-46da-9919-f421e0d85272_zkffpo.mp4",
-	swissroll: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758016273/download_yds56g.jpg",
+	swissroll: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763145737/grok-video-e7fc40ec-7884-49e0-b484-82dc3f0be844_1_xoolyn.mp4",
 	pineapplecake: "https://res.cloudinary.com/dlgads1kq/video/upload/v1762931184/grok-video-5c5c93bf-0beb-4461-8399-dac5dd0fdacb_ic3mwa.mp4",
-	multigrain: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758100423/e547a242-6168-4fdb-8f79-a336c699fd59_ho0he4.jpg",
+	multigrain: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763107882/grok-video-e8b11e4b-e37a-4e86-8f89-791634976e4c_lmsd6m.mp4",
 	logo: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758174272/Pankaj_bakery_xt8bia.png",
 	ourstorybackground: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758176203/Gemini_Generated_Image_k04m2xk04m2xk04m_aj5atj.png",
 	vegPuff: "https://res.cloudinary.com/dlgads1kq/video/upload/v1762928693/grok-video-dddc296d-a412-4604-a57e-08f163996688_djwl94.mp4",
@@ -28,20 +28,23 @@ const IMAGES = {
 	freshJuice: "https://images.unsplash.com/photo-1551022370-2d5a48f3f023?q=80&w=1200&auto=format&fit=crop",
 	menu1: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758011234/menu1_jeacfs.jpg",
 	menu2: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758011233/menu2_bibu5r.jpg",
-	blackforestpastry: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758098438/Black_Forest_Cake_1_rts6pw.jpg",
-	blackcurrantpastry: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758098442/Gemini_Generated_Image_eufat6eufat6eufa_sp1aj4.png",
-	pineapplepastry: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758098437/Treat_your_loved_ones_to_a_jaw-dropping_Eggless_Pineapple_Pastry_Recipe__The_whipped_cream_frosting_moist_pineapple_drenched_cake-sheets_equals_t5kuje.jpg",
-	cassatapastry: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758098439/Tasty_Old-Fashioned_Coconut_Cake_txrxyr.jpg",
-	chocolatetrufflepastry: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758098756/Cooking_Channel_zlq1xt.jpg",
-	butterscotchpastry: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758098438/Butterscotch_Cake_Indian_Bakery_Style_rglqay.jpg",
-	strawberrypastry: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758098442/Gemini_Generated_Image_eufat6eufat6eufa_sp1aj4.png",
-	rainbowpastry: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758098756/Pastries_f3pe1z.jpg",
-	redvelvetpastry: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758098875/Red_Velvet_Cheesecake_Cake__A_Decadent_Recipe_Guide_l2ttjz.jpg",
-	coconutkaju: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758101345/Cashew_Cookies_gdemwt.jpg",
-	brownBreadSandwich: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758011235/bronbreadsand_kfpm9f.png",
-	clubSandwich: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758099075/Veg_Cream_Cheese_Sandwich_rjaxff.jpg",
-	grilledSandwich: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758099227/download_2_afqk9n.jpg",
-	cheesePuff: "https://res.cloudinary.com/dlgads1kq/image/upload/v1758099226/Chicken_Puff_euq469.jpg"
+	blackforestpastry: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763109671/grok-video-342c29e9-b7a1-43c1-9c5a-92a49c3ed8ca_h6eczz.mp4",
+	blackcurrantpastry: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763109156/grok-video-c741c0d6-4bda-45b7-9826-3550ad867648_xcq17v.mp4",
+	pineapplepastry: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763145364/grok-video-ecb5f687-97cc-4087-85f0-8f400918cbfb_2_zvk6pf.mp4",
+	cassatapastry: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763109255/grok-video-d0801472-d977-452b-a3d4-989228733b37_ia6dpi.mp4",
+	chocolatetrufflepastry: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763108638/grok-video-fd466bab-3e1b-47d6-a294-1c99387091eb_ewe42x.mp4",
+	butterscotchpastry: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763109486/grok-video-fe5348b6-e161-407d-bef3-46bb2d0c9e0c_zqwq5d.mp4",
+	strawberrypastry: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763108825/grok-video-4fa3abf8-92a0-4642-97e9-38b1112d715d_tkovpo.mp4",
+	rainbowpastry: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763108403/grok-video-b5aed7ff-f032-4969-965d-d32ae559235e_bfexdd.mp4",
+	redvelvetpastry: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763108145/grok-video-193ee68f-9889-4b3e-a180-6f853096004c_tycyxn.mp4",
+	coconutkaju: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763107616/grok-video-8f44e70b-b87a-4161-89b2-a208e21982cd_dsgavg.mp4",
+	brownBreadSandwich: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763107103/grok-video-1a7362ec-71a6-413a-b237-ff7c9f2a4553_1_zxh3ki.mp4",
+	clubSandwich: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763107104/grok-video-3558c25f-3beb-4352-9d0e-4215f78002b1_p4cdce.mp4",
+	grilledSandwich: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763107109/grok-video-b9594441-5800-4184-9b61-187adbe53146_rcakju.mp4",
+	cheesePuff: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763146157/grok-video-a357e9e8-3009-4745-aae6-42f726d2d6dc_1_gbrw72.mp4",
+	dryCake1: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763146770/grok-video-29c426c3-b288-43d4-80ff-dfbbc5c7f2af_f9r7qh.mp4",
+	dryCake2: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763147103/grok-video-72b4e955-92aa-4537-94d5-0b39ad964078_1_zrne03.mp4",
+	dryCake3: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763147346/grok-video-e2a7afea-bbde-4564-8d39-249f3c38a686_1_wduymt.mp4"
 };
 
 const SITE = {
@@ -110,6 +113,15 @@ const MENU_CATEGORIES = [
 			{ name: "Club Sandwich", desc: "Triple layered sandwich with veggies and cheese.", price: 35, image: IMAGES.clubSandwich },
 			{ name: "Grilled Sandwich", desc: "Grilled to perfection with a savory filling.", price: 55, image: IMAGES.grilledSandwich },
 			{ name: "Cheese Puff", desc: "Flaky pastry filled with cheesy goodness.", price: 45, image: IMAGES.cheesePuff }
+		]
+	},
+	{
+		key: "dryCakes",
+		title: "Dry Cakes",
+		items: [
+			{ name: "Fruit Cake", desc: "A moist and flavorful fruit cake bursting with juicy dried fruits.", price: 350, image: IMAGES.dryCake1 },
+			{ name: "Choco Chip Cake", desc: "A moist vanilla cake studded with irresistible chocolate chips throughout.", price: 400, image: IMAGES.dryCake2 },
+			{ name: "Marble Cake ", desc: "Beautifully marbled chocolate and vanilla layers baked to perfection.", price: 450, image: IMAGES.dryCake3 }
 		]
 	}
 ];

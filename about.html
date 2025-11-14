@@ -25,8 +25,8 @@
   </head>
   <body class="min-h-screen bg-neutral-50 text-neutral-800 antialiased">
     <!-- Navbar -->
-    <header class="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur border-b border-neutral-200">
-      <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <header class="fixed top-0 inset-x-0 z-50 border-b border-neutral-200/30 bg-white/20 backdrop-blur-sm">
+       <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
           <a href="index.html" class="flex items-center gap-2">
             <img src="https://res.cloudinary.com/dlgads1kq/image/upload/v1758174272/Pankaj_bakery_xt8bia.png" 
@@ -36,22 +36,26 @@
           </a>
           
           <div class="hidden md:flex items-center gap-8">
-            <a href="index.html" class="text-sm font-medium hover:text-brand-600">Home</a>
-            <a href="products.html" class="text-sm font-medium hover:text-brand-600">Products</a>
-            <a href="menu.html" class="text-sm font-medium hover:text-brand-600">Menu</a>
-            <a href="about.html" class="text-sm font-medium text-brand-700">About</a>
-            <a href="contact.html" class="text-sm font-medium hover:text-brand-600">Contact</a>
+            <a href="index.html" class="text-sm font-medium hover:text-brand-600 transition">Home</a>
+            <a href="products.html" class="text-sm font-medium hover:text-brand-600 transition">Products</a>
+            <a href="menu.html" class="text-sm font-medium hover:text-brand-600 transition">Menu</a>
+            <a href="location.html" class="text-sm font-medium hover:text-brand-600 transition">Location</a>
+            <a href="about.html" class="text-sm font-medium hover:text-brand-600 transition">About</a>
+            <a href="contact.html" class="text-sm font-medium hover:text-brand-600 transition">Contact</a>
           </div>
-          <button id="mobileMenuBtn" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-md hover:bg-neutral-100" aria-label="Open Menu">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5" /></svg>
+          <button id="mobileMenuBtn" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-md hover:bg-neutral-100 transition" aria-label="Open Menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5" />
+            </svg>
           </button>
         </div>
         <div id="mobileMenu" class="md:hidden hidden py-3 border-t border-neutral-200">
-          <a href="index.html" class="block py-2 font-medium">Home</a>
-          <a href="products.html" class="block py-2 font-medium">Products</a>
-          <a href="menu.html" class="block py-2 font-medium">Menu</a>
-          <a href="about.html" class="block py-2 font-medium text-brand-700">About</a>
-          <a href="contact.html" class="block py-2 font-medium">Contact</a>
+          <a href="index.html" class="block py-2 font-medium hover:text-brand-600">Home</a>
+          <a href="products.html" class="block py-2 font-medium hover:text-brand-600">Products</a>
+          <a href="menu.html" class="block py-2 font-medium hover:text-brand-600">Menu</a>
+          <a href="location.html" class="block py-2 font-medium hover:text-brand-600">Location</a>
+          <a href="about.html" class="block py-2 font-medium hover:text-brand-600">About</a>
+          <a href="contact.html" class="block py-2 font-medium hover:text-brand-600">Contact</a>
         </div>
       </nav>
     </header>
