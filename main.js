@@ -115,10 +115,17 @@ if (constants) {
 	// Render Menu categories
 	const menuRoot = document.getElementById('menuRoot');
 	if (menuRoot && Array.isArray(constants.MENU_CATEGORIES)) {
-		menuRoot.innerHTML = constants.MENU_CATEGORIES.map((cat) => `
+		menuRoot.innerHTML = constants.MENU_CATEGORIES.map((cat) => {
+			// Check if it's the biscuits section or dry cakes section (both have 3 items)
+			const isThreeColumnSection = cat.key === "Hand Made Biscuits & Cookies" || cat.key === "dryCakes";
+			const gridClasses = isThreeColumnSection 
+				? "mt-4 grid grid-cols-1 sm:grid-cols-3 gap-6"
+				: "mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6";
+			
+			return `
 			<div>
 				<h2 class="text-2xl font-bold">${cat.title}</h2>
-				<div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+				<div class="${gridClasses}">
 					${cat.items.map((item) => {
 						const isVideoUrl = isVideo(item.image);
 						const mediaElement = isVideoUrl 
@@ -139,7 +146,8 @@ if (constants) {
 					}).join('')}
 				</div>
 			</div>
-		`).join('');
+		`;
+		}).join('');
 	}
 
 	// Render Menus images on Menu page

@@ -44,7 +44,10 @@ const IMAGES = {
 	cheesePuff: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763146157/grok-video-a357e9e8-3009-4745-aae6-42f726d2d6dc_1_gbrw72.mp4",
 	dryCake1: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763146770/grok-video-29c426c3-b288-43d4-80ff-dfbbc5c7f2af_f9r7qh.mp4",
 	dryCake2: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763147103/grok-video-72b4e955-92aa-4537-94d5-0b39ad964078_1_zrne03.mp4",
-	dryCake3: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763147346/grok-video-e2a7afea-bbde-4564-8d39-249f3c38a686_1_wduymt.mp4"
+	dryCake3: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763147346/grok-video-e2a7afea-bbde-4564-8d39-249f3c38a686_1_wduymt.mp4",
+	biscuit1: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763363448/grok-video-96af0fd0-1dcb-4314-9fa5-2611d06220c1_tpuou6.mp4",
+	biscuit2: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763364122/grok-video-b978c3d5-74db-4cc2-9db4-5ce536fc971f_akkt0z.mp4",
+	biscuit3: "https://res.cloudinary.com/dlgads1kq/video/upload/v1763364566/grok-video-ef548db7-bbae-47a2-83c0-10bef2887206_1_wlkw4n.mp4"
 };
 
 const SITE = {
@@ -99,7 +102,10 @@ const MENU_CATEGORIES = [
 		items: [
 			{ name: "Butter Pista Cookies", desc: "Crusty outside, airy inside.", price: 480, image: IMAGES.butterPistacookies },
 			{ name: "Coconut Cashew Cookies", desc: "Buttery and herby.", price: 400, image: IMAGES.coconutkaju },
-			{ name: "Indian Jeera Biscuits", desc: "Healthy and hearty.", price: 320, image: IMAGES.multigrain }
+			{ name: "Indian Jeera Cookies", desc: "Healthy and hearty.", price: 320, image: IMAGES.multigrain },
+			{ name: "Sweet Heart Puffs", desc: "Delicate puff pastry hearts glazed to golden caramel perfection.", price: 300, image: IMAGES.biscuit1 },
+			{ name: "Almond Cookies", desc: "Crispy, melt-in-the-mouth almond cookies bursting with nutty flavor.", price: 400, image: IMAGES.biscuit2 },
+			{ name: "Oregano Puffs ", desc: "Golden, flaky pastry sticks with irresistible crunch in every bite.", price: 340, image: IMAGES.biscuit3 }
 		]
 	},
 	{
